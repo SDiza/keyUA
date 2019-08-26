@@ -1,0 +1,39 @@
+.footer{
+  margin-top: 40px;
+  background-color: #2A1818;
+  width: 100%;
+
+}
+.footer__logo{
+  position: absolute;
+  margin-top: 30px;
+}
+.footer__info{
+  height: 95px;
+}
+.footer__links{
+  text-align: center;
+  padding-top: 30px;
+
+}
+
+.footer__links a{
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 0.81);
+}
+
+.footer__copy{
+  height: 60px;
+  background-color: #2A1818;
+  font-size: 13px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copy__text{
+  opacity: 0.4;
+}

@@ -1,0 +1,218 @@
+.header {
+  width: 100%;
+  height: 85px;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1); }
+
+.header__content {
+  display: flex;
+  justify-content: space-between; }
+
+.header__logo {
+  padding: 30px 0; }
+
+.header__link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  color: #3D8F85;
+  text-decoration: underline;
+  padding-top: 32px;
+  padding-bottom: 34px; }
+
+.services__title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  line-height: 36px;
+  font-size: 26px;
+  letter-spacing: 0.52px;
+  padding-top: 40px;
+  padding-bottom: 36px; }
+
+.service__items {
+  display: flex;
+  justify-content: space-between; }
+
+.service__item {
+  max-width: 350px;
+  text-align: center;
+  padding: 36px 14px 40px 14px;
+  position: relative;
+  min-height: 455px; }
+
+.service__item-trial {
+  border: 2px solid #3D8F85;
+  border-radius: 7px; }
+
+.service__item-annual {
+  border: 1px solid #D4D9E6;
+  border-radius: 7px; }
+
+.service__header {
+  height: 87px;
+  width: 350px;
+  background-color: #3D8F85;
+  background-size: cover;
+  border-radius: 7px 7px 0px 0px;
+  margin-top: -38px;
+  margin-left: -16px; }
+
+.service__item-header-trial {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 41px;
+  letter-spacing: 0.72px;
+  color: #fff; }
+
+.service__item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #646464;
+  padding: 18px 0px 12px; }
+
+.service__item-price {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #3D8F85;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.64px; }
+
+.service__item-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #585858;
+  padding: 0px 35px; }
+
+.service__item-btn a {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  text-decoration: none;
+  padding: 21px 86px;
+  background-color: #E24C2C;
+  box-shadow: 0px 0px 20px #E24C2C;
+  border-radius: 7px; }
+
+.service__item-btn {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  cursor: pointer; }
+
+.service__item-annual img {
+  padding-top: 60px; }
+
+.service__info-header-fon {
+  margin-top: -35px;
+  margin-left: -20px; }
+
+.service__info-header-title {
+  position: absolute;
+  top: 15px;
+  left: 68px; }
+
+.service__info .service__item-title {
+  padding-left: 55px;
+  padding-top: 0px; }
+
+.service__info-text {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  line-height: 20px;
+  font-size: 16px;
+  padding-left: 90px;
+  position: relative; }
+
+.service__info-text p:before {
+  font-family: 'icomoon';
+  content: "\f00c";
+  color: #3D8F85;
+  position: absolute;
+  left: 40px; }
+
+.review {
+  margin-top: 40px; }
+
+.review__author {
+  display: inline-flex;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #333333;
+  position: absolute; }
+
+.review__text {
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 0.3px;
+  line-height: 25px;
+  color: #646464;
+  padding-left: 110px;
+  padding-top: 30px; }
+
+.slick-dots li {
+  width: 0; }
+
+.slick-dots li button {
+  font-size: 20px; }
+
+.slick-dots li button:before {
+  color: #E8E8E8;
+  font-size: 25px;
+  opacity: 1; }
+
+.slick-dots li.slick-active button:before {
+  color: #3D8F85; }
+
+.footer {
+  margin-top: 40px;
+  background-color: #2A1818;
+  width: 100%; }
+
+.footer__logo {
+  position: absolute;
+  margin-top: 30px; }
+
+.footer__info {
+  height: 95px; }
+
+.footer__links {
+  text-align: center;
+  padding-top: 30px; }
+
+.footer__links a {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 0.81); }
+
+.footer__copy {
+  height: 60px;
+  background-color: #2A1818;
+  font-size: 13px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  border-top: 1px solid rgba(255, 255, 255, 0.1); }
+
+.copy__text {
+  opacity: 0.4; }
+
+* {
+  box-sizing: border-box; }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
